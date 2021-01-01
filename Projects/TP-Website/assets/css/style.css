@@ -25,9 +25,6 @@
     box-sizing: border-box;
     max-width: 100%;
 }
- .main_container{
-  padding-top: 97px;
-}
 .row {
   margin: 0 -15px;
 }
@@ -625,7 +622,7 @@ text-align: center;
 }
 /* Why Us End */
 /* For Mobile */
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:1024px ) {
   .button_click{
     display: none !important;
   }
