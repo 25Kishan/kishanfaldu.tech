@@ -1,0 +1,372 @@
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+  /* Slider */
+  .slider > ul {
+    transform: rotate(0deg);
+    bottom: 12%;
+  }
+  .slider > ul > li {
+    width: 43px !important;
+  }
+  .slider > ul > .showli {
+    width: 43px !important;
+  }
+  .slider > ul > .showli {
+    width: 43px !important;
+  }
+  .showli::before {
+    width: 43px !important;
+  }
+  #scroll-down-animation h2 {
+    letter-spacing: 2px;
+  }
+  #scroll-down-animation {
+    margin-top: 13%;
+  }
+  /* End Slider */
+  .desktop {
+    display: none !important;
+  }
+  .mobile {
+    display: block !important;
+  }
+  p {
+    font-size: 14px;
+  }
+  .atul-foundation {
+    padding: 60px 0 160px !important;
+  }
+  .social-dimension {
+    margin: -150px 0 -100px !important;
+    padding: 60px 0 130px !important;
+  }
+  .enconomic-dimension {
+    padding: 70px 0 140px !important;
+  }
+  .environmental-dimension {
+    padding: 70px 0 40px !important;
+  }
+  #discover_heading {
+    font-size: 9vw !important;
+  }
+  #secondry_heading {
+    margin-top: 5.4% !important;
+  }
+  .why-us {
+    height: 580px !important;
+  }
+  .exp_more_btn {
+    margin-left: 14% !important;
+    margin-right: 14% !important;
+  }
+  .exp_more_text {
+    width: 100%;
+  }
+  .sust_img img {
+    height: 370px !important;
+  }
+  .sustainability {
+    height: 370px !important;
+  }
+  .quality {
+    margin-top: 48% !important;
+  }
+  .capacity {
+    margin-top: 93% !important;
+  }
+  .capacity_slant_2 img {
+    margin-top: 22% !important;
+  }
+  .slant_a_why_us {
+    height: 1120px;
+  }
+  #about-data p {
+    margin-top: 17% !important;
+  }
+  .button_click #exp_more_btn_id {
+    margin-left: 15% !important;
+  }
+  .slider,
+  .slider > div {
+    height: 300px !important;
+  }
+  #slider_image img {
+    height: 300px !important;
+  }
+
+  .mainLogo img {
+    max-width: 108px;
+    margin-top: 12%;
+    height: 90px;
+  }
+
+  .headerCont,
+  .headerCont.sticky {
+    padding: 0;
+    background: #fff;
+    position: fixed;
+  }
+
+  .headerInrCont {
+    display: inherit;
+    width: 100%;
+  }
+  /* Logo and Navigation */
+  .headerCont {
+    background-color: #747476;
+  }
+  .slant_logo_back {
+    width: 80%;
+    height: 78px;
+  }
+  #menu .menu-image-box:hover .menu-image {
+    display: none;
+  }
+
+  #menu > ul > li > a {
+    padding: 17px 17px;
+    right: 0%;
+  }
+  #menu li:hover > ul {
+    left: 0;
+  }
+  #menu > ul > li:hover > a,
+  #menu ul li.active a {
+    color: #4b4b4d;
+  }
+  #menu > ul > li.active:after,
+  #menu > ul > li:hover:after {
+    background: none;
+  }
+  #menu ul {
+    background: #fff;
+  }
+  .logo {
+    position: absolute;
+    top: 14px;
+    left: 35px;
+    /* width: 46px;
+    height: 46px; */
+    text-align: center;
+    padding: 0;
+    float: none;
+  }
+  .headerCont.sticky .logo {
+    top: 14px;
+  }
+  .logo2 {
+    display: none;
+  }
+  nav {
+    width: 100%;
+  }
+  #menu {
+    width: 100%;
+    margin-top: -18%;
+  }
+  #menu ul {
+    width: 100%;
+    display: none;
+  }
+  #menu > ul.open {
+    height: 150vh;
+    overflow: scroll;
+    padding-bottom: 90px;
+  }
+  #menu > ul.open {
+    /* -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; */
+  }
+  #menu ul li {
+    width: 100%;
+    /* border-top: 1px solid ; */
+    position: relative;
+  }
+  #menu ul li:hover {
+    /* background: rgba(239,27,40,.4); */
+    background: none;
+  }
+  #menu > ul > li:hover > a {
+    background: none;
+  }
+  #menu ul ul li,
+  #menu li:hover > ul > li {
+    height: auto;
+  }
+  #menu ul li a,
+  #menu ul ul li a {
+    width: 100%;
+    border-bottom: 0;
+    color: #ed3237;
+    clear: both;
+  }
+  #menu > ul > li {
+    float: none;
+    clear: both;
+    background: transparent;
+  }
+  #menu ul ul li a {
+    padding-left: 25px;
+  }
+  #menu ul ul li {
+    /* background: #437bb8!important; */
+    background: #fff !important;
+    clear: both;
+    position: relative;
+  }
+  #menu ul ul li:hover {
+    /* background: #004086!important */
+  }
+  #menu ul ul ul li a {
+    padding-left: 35px;
+  }
+  #menu ul ul li a {
+    color: #ea4724;
+    background: none;
+  }
+  #menu ul ul li:hover > a,
+  #menu ul ul li.active > a {
+    color: #000;
+  }
+  #menu ul ul,
+  #menu ul ul ul {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    z-index: 2;
+  }
+  #menu > ul > li.has-sub > a:after,
+  #menu > ul > li.has-sub > a:before,
+  #menu ul ul > li.has-sub > a:after,
+  #menu ul ul > li.has-sub > a:before {
+    display: none;
+  }
+  #menu #head-mobile {
+    display: block;
+    padding: 30px;
+    color: #ddd;
+    font-size: 12px;
+    font-weight: 700;
+    height: 65px;
+  }
+  .button {
+    width: 55px;
+    height: 46px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    cursor: pointer;
+    z-index: 12399994;
+    margin-top: 3%;
+  }
+  .button:after {
+    position: absolute;
+    top: 22px;
+    right: 16px;
+    display: block;
+    height: 10px;
+    width: 20px;
+    border-top: 2px solid #484848;
+    border-bottom: 2px solid #484848;
+    content: "";
+  }
+  .button:before {
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: block;
+    height: 2px;
+    width: 10px;
+    background: #484848;
+    content: "";
+  }
+  .button.menu-opened:after {
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    top: 23px;
+    border: 0;
+    height: 2px;
+    width: 19px;
+    background: #ed3237;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .button.menu-opened:before {
+    top: 23px;
+    background: #ed3237;
+    width: 19px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  #menu .submenu-button {
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    top: 0;
+    display: block;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    height: 58px;
+    width: 58px;
+    cursor: pointer;
+  }
+  #menu .submenu-button.submenu-opened {
+    background: #ed3237;
+  }
+  #menu ul ul .submenu-button {
+    height: 41px;
+    width: 41px;
+  }
+  #menu .submenu-button:after {
+    position: absolute;
+    top: 28px;
+    right: 22px;
+    width: 12px;
+    height: 2px;
+    display: block;
+    background: #ed3237;
+    content: "";
+  }
+  #menu ul ul .submenu-button:after {
+    top: 19px;
+    right: 14px;
+  }
+  #menu .submenu-button.submenu-opened:after {
+    background: #fff;
+  }
+  #menu .submenu-button:before {
+    position: absolute;
+    top: 23px;
+    right: 27px;
+    display: block;
+    width: 2px;
+    height: 12px;
+    background: #ed3237;
+    content: "";
+  }
+  #menu ul ul .submenu-button:before {
+    top: 14px;
+    right: 19px;
+  }
+  #menu .submenu-button.submenu-opened:before {
+    display: none;
+  }
+  #menu ul ul ul li.active a {
+    border-left: none;
+  }
+  #menu > ul > li.has-sub > ul > li.active > a,
+  #menu > ul ul > li.has-sub > ul > li.active > a {
+    border-top: none;
+  }
+  /* End Logo and Navigation */
+}

@@ -282,51 +282,6 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
     /* For Mobile */
-}@media only screen and (max-width:500px) {
-  
-    .slider > ul {
-      transform: rotate(0deg); 
-      /* left:25% !important; */
-      bottom: 6%;
-      margin-left: 0%;
-      margin-right: 0%;
-    }
-    .slider > ul > li{
-        width: 40px !important;
-    }
-    .slider > ul > .showli{
-        width: 40px !important;
-    }
-    .showli::before{
-        width: 40px !important;
-    }
-}
-
-/* For Tablet */
-@media only screen and (max-width:1024px) {
-  
-    .slider > ul {
-      transform: rotate(0deg); 
-      bottom: 12%;
-    }
-    .slider > ul > li{
-        width: 43px !important;
-    }
-    .slider > ul > .showli{
-        width: 43px !important;
-    }
-    .slider > ul > .showli{
-        width: 43px !important;
-    }
-    .showli::before{
-        width: 43px !important;
-    }
-    #scroll-down-animation h2{
-        letter-spacing: 2px;
-    }
-    #scroll-down-animation{
-        margin-top: 13%;
-    }
 }
 svg{
     fill:currentColor;
