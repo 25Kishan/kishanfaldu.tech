@@ -37,6 +37,16 @@
     line-height: 2;
   }
   /* End Who we are? */
+  /* Products-Home Page */
+  #product_data{
+    margin-left: 11%;
+    margin-right: 11%;
+    line-height: 1.5;
+  }
+  #exp_more_mbl_btn{
+      margin-top: 100%;
+  }
+  /* End Products - Home Page */
   .desktop {
     display: none !important;
   }
@@ -75,7 +85,7 @@
   }
   .mobile_s_q_c {
     width: 100%;
-    height: 597px;
+    height: 493px;
     display: block;
     background-color: black;
   }
@@ -147,9 +157,9 @@
   .gridlayout1 li a div h3 {
     width: 100%;
     color: #fff;
-    font-size: 35px;
-    padding: 0;
-    margin: 0;
+    font-size: 51px;
+    padding-bottom: 40%;
+    /* margin: 0; */
   }
 
   .home .gridlayout1 li {

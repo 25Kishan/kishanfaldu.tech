@@ -249,8 +249,21 @@
     width: 100%;
     height: 450px;
 }
-
-
+#product_data{
+  position: absolute;
+  z-index: 2;
+  margin-left: 22%;
+  margin-right: 22%;
+  margin-top: 3%;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 2;
+}
+#product_data span{
+  font-size: 22px;
+}
 .text-block p{
   position: absolute;
   z-index: 2;
