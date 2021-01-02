@@ -252,8 +252,8 @@
 #product_data{
   position: absolute;
   z-index: 2;
-  margin-left: 22%;
-  margin-right: 22%;
+  margin-left: 25%;
+  margin-right: 21%;
   margin-top: 3%;
   font-size: 18px;
   letter-spacing: 2px;
@@ -435,7 +435,7 @@ width: 92%;
 .qlity_text{
   width: 50%;
   float: left;
-  margin-top: -9%;
+  margin-top: -9% !important;
 }
 .qlity_text h2{
   text-align: center;
@@ -514,7 +514,7 @@ width: 50%;
 .capacity_text{
   width: 50%;
   float: right;
-  margin-top: 10%;
+  margin-top: 10% !important;
 }
 .capacity_text h2{
   text-align: center;
@@ -758,7 +758,7 @@ width: 100%;
   display: none;
 }
 .button_click #exp_more_btn_id{
-  margin-left: 30%;
+  margin-left: 33%;
 }
 /* END Products */
 /* Btl Basics */
@@ -803,6 +803,9 @@ width: 100%;
   margin-top: 2%;
   font-size: 20px;
   color: #23292c;
+}
+#v_m_mbl{
+display: none;
 }
 #vision{
   width: 100%;
@@ -947,7 +950,7 @@ width: 100%;
 
 /* End */
 /* Products Section */
-.businesswrapper { background:#373435;}
+.businesswrapper { background:#dadad9;}
 
 .businessrow1 { background:#f4ebdd;}
 .businessrow2 { background:#f4ebdd;}
@@ -961,7 +964,7 @@ width: 100%;
 .businesstext { width:67%; margin:0 auto; padding:90px 0 0 0; text-align:center;}
 .businesstext.polymer_ratail{ width:67%; margin:0 auto; padding:50px 0 0 0; text-align:center;}
 .businesstext.popm { width:67%; margin:0 auto; padding: 40px 0 0 0; text-align:center;}
-.businesstext h2 { color:#FEFEFE;font-size:30px; line-height:30px; margin:0 auto; padding:0 0 20px 0; text-align:center;}
+.businesstext h2 { color:#222;font-size:50px; line-height:30px; margin:0 auto; padding:0 0 20px 0; text-align:center;}
 .businesstext h3 { font-size:16px; line-height:26px; margin:0 auto; padding:0 0 20px 0;  text-align: justify;}
 
 
@@ -1072,6 +1075,9 @@ form{
   background-color: #4B4B4D;
   color: #fff;
 }
+#container_img_mbl{
+  display: none;
+}
 .list-group-item{
   padding: 0.35rem 2.25rem !important;
 }
@@ -1080,3 +1086,6 @@ form{
   text-decoration: none !important;
   color: #373435;
 }
+.mobile_s_q_c_p{
+  display: none;
+} 

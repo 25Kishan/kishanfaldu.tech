@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1024px) and (min-width: 600px) {
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
   /* Slider */
   .slider > ul {
     transform: rotate(0deg);
@@ -67,23 +67,18 @@
   .sustainability {
     height: 370px !important;
   }
-  .quality {
-    margin-top: 48% !important;
-  }
-  .capacity {
-    margin-top: 93% !important;
-  }
   .capacity_slant_2 img {
     margin-top: 22% !important;
   }
   .slant_a_why_us {
-    height: 1120px;
+    height: 701px;
   }
   #about-data p {
     margin-top: 17% !important;
   }
   .button_click #exp_more_btn_id {
     margin-left: 15% !important;
+    margin-top: 35% !important;
   }
   .slider,
   .slider > div {
@@ -111,6 +106,12 @@
     width: 100%;
   }
   /* Logo and Navigation */
+  #tp_main {
+    display: none;
+  }
+  #tp_full {
+    display: block !important;
+  }
   .headerCont {
     background-color: #747476;
   }
@@ -161,7 +162,7 @@
   }
   #menu {
     width: 100%;
-    margin-top: -18%;
+    margin-top: -9%;
   }
   #menu ul {
     width: 100%;
@@ -258,7 +259,7 @@
     top: 0;
     cursor: pointer;
     z-index: 12399994;
-    margin-top: 3%;
+    margin-top: 1%;
   }
   .button:after {
     position: absolute;
@@ -369,4 +370,82 @@
     border-top: none;
   }
   /* End Logo and Navigation */
+
+/* Quality  */
+.qlity_text{
+    margin-top:-25% !important;
+}
+.capacity_text{
+    margin-top:5% !important;
+}
+/*  */
+
+/* End Quality */
+
+/* About-us page */
+#v_m_full{
+    display: block;
+}
+#v_m_mbl{
+    display: none;
+}
+#mission_img img{
+    margin-top:-12%;
+}
+/* End About-us page */
+/* Products */
+.mobile_s_q_c_p{
+    display: none;
+}
+.hdpe-main{
+    background: url(../../images/Products/hdpe.jpg) no-repeat right top;
+    background-size: cover;
+text-align: center;
+min-height: 390px;
+}
+.pet-main{
+    background: url(../../images/Products/pet.jpg) no-repeat right top;
+    background-size: cover;
+text-align: center;
+min-height: 390px;
+}
+.bulk-main{
+    background: url(../../images/Products/bulk.jpg) no-repeat right top;
+    background-size: cover;
+text-align: center;
+min-height: 390px;
+}
+.csl-hd-main {
+    background: url(../../images/Products/Hdpe/cstl.jpg) no-repeat top;
+        background-size: auto;
+    background-size: cover;
+    text-align: center;
+    min-height: 390px;
+}
+.srv-hd-main {
+    background: url(../../images/Products/Hdpe/cstl.jpg) no-repeat top;
+        background-size: auto;
+    background-size: cover;
+    text-align: center;
+    min-height: 390px;
+}
+.shl-hd-main{
+    
+        background: url(../../images/Products/Hdpe/shl.jpg) no-repeat top;
+            background-size: auto;
+        background-size: cover;
+        text-align: center;
+        min-height: 390px;
+    
+}
+.uni-hd-main {
+    background: url(../../images/Products/Hdpe/grp.jpg) no-repeat top;
+        background-size: auto;
+    background-size: cover;
+    text-align: center;
+    min-height: 390px;
+}
+
+
+/* End Products */
 }
