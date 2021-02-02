@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Animated Navigation Bar (Custom CSS) + Back To Top Button</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="mobileNav">
+  <nav>
+     <input type="checkbox" id="nav" class="hidden my_menu_input">
+     <label for="nav" class="nav-btn">
+     <i></i>
+     <i></i>
+     <i></i>
+     </label>
+     <div class="nav-wrapper">
+        <ul>
+            <li><a href="#s0" class="myNavLink">Home</a></li>
+            <li><a href="#s1" class="myNavLink">Why Us?</a></li>
+            <li><a href="#s2" class="myNavLink">Mentors</a></li>
+            <li><a href="#s3" class="myNavLink">Plans</a></li>
+            <li><a href="#s4" class="myNavLink">About Us</a></li>
+            <li><a href="#s5" class="myNavLink">Contact</a></li>
+        </ul>
+     </div>
+  </nav>
+</div>
+
+<div class="sections">
+  <div class="section" id="s0">
+    Section 0
+  </div>
+  <div class="section" id="s1">
+    Section 1
+  </div>
+  <div class="section" id="s2">
+    Section 2
+  </div>
+  <div class="section" id="s3">
+    Section 3
+  </div>
+  <div class="section" id="s4">
+    Section 4
+  </div>
+  <div class="section" id="s5">
+    Section 5
+  </div>
+
+</div>
+
+<button id="back-to-top-btn" href="#s0" class="myNavLink"><i class="fas fa-chevron-up"></i></button>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
