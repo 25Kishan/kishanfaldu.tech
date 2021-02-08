@@ -602,7 +602,7 @@ body {
     margin-bottom: 0;
   }
   
-  .about .content .btn-learn-more {
+  .about .content .btn-learn-more , .card-body .btn-learn-more{
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -620,7 +620,7 @@ body {
     border: 2px solid red;
   }
   
-  .about .content .btn-learn-more:hover {
+  .about .content .btn-learn-more:hover,.card-body .btn-learn-more:hover {
     background: red;
     color: #fff;
     text-decoration: none;
@@ -713,7 +713,11 @@ body {
   /*--------------------------------------------------------------
   # Services
   --------------------------------------------------------------*/
-  .services .icon-box {
+  .services{
+    background: url("../img/home/iQdPo5u52UbU1vu0Fnc1pU2UzWQsmAG1yIcz5mF8.jpeg");
+    background-size: cover;
+  }
+  /* .services .icon-box {
     padding: 30px;
     position: relative;
     overflow: hidden;
@@ -728,7 +732,7 @@ body {
   .services .icon-box::before {
     content: '';
     position: absolute;
-    background: #dadad9;
+    background-image: url("../img/water\ &\ beverages.png");
     right: 0px;
     bottom: 0px;
     width: 100%;
@@ -736,6 +740,7 @@ body {
     border-radius: 0px;
     transition: all 0.3s;
     z-index: -1;
+    background-size: cover;
   }
   
   .services .icon-box:hover::before {
@@ -791,8 +796,7 @@ body {
   
   .services .icon-box:hover .icon i {
     color: red;
-  }
-  
+  } */  
   /*--------------------------------------------------------------
   # More Services
   --------------------------------------------------------------*/
