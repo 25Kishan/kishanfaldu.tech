@@ -362,7 +362,26 @@ body {
   .mobile-nav-active .mobile-nav-toggle i {
     color: #fff;
   }
-  
+  /* Start About-Us page section */
+  #a_content{
+    font-size:25px;
+    color:#fff;
+  }
+  #text-container-1{
+    position:relative;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fff;
+  }
+  .centered span{
+    font-size: 50px;
+  }
+  /* End About-us page section */
   /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
@@ -371,7 +390,6 @@ body {
     height: 80vh;
     margin-top: 80px;
   }
-  
   #hero h1 {
     margin:15px 0 15px 0;
     font-size: 38px;
