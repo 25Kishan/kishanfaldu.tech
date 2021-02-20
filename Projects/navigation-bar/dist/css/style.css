@@ -389,6 +389,9 @@ body {
     width: 100%;
     height: 300px;
    }
+   #industry_we{
+    color:#0000;
+  }
   @media screen and (max-width: 568px) {
    .a_about{
     margin-top: 22%;
@@ -396,7 +399,9 @@ body {
    #a_content{
     color:#fff;
   }
-
+  #industry_we{
+    color:#fff;
+  }
    #texture-img img{
     width: 100%;
     height: 125px;
