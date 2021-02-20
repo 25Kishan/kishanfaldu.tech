@@ -385,13 +385,18 @@ body {
   .centered span{
     font-size: 50px;
   }
-  @media screen and (max-width: 768px) {
+  #texture-img img{
+    width: 100%;
+    height: 300px;
+   }
+  @media screen and (max-width: 568px) {
    .a_about{
     margin-top: 22%;
    }
    #a_content{
     color:#fff;
   }
+
    #texture-img img{
     width: 100%;
     height: 125px;
