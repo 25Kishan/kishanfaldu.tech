@@ -1,60 +1,445 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Animated Navigation Bar (Custom CSS) + Back To Top Button</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css'><link rel="stylesheet" href="./style.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Tirupati Polyplast | Home</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div id="mobileNav">
-  <nav>
-     <input type="checkbox" id="nav" class="hidden my_menu_input">
-     <label for="nav" class="nav-btn">
-     <i></i>
-     <i></i>
-     <i></i>
-     </label>
-     <div class="nav-wrapper">
-        <ul>
-            <li><a href="#s0" class="myNavLink">Home</a></li>
-            <li><a href="#s1" class="myNavLink">Why Us?</a></li>
-            <li><a href="#s2" class="myNavLink">Mentors</a></li>
-            <li><a href="#s3" class="myNavLink">Plans</a></li>
-            <li><a href="#s4" class="myNavLink">About Us</a></li>
-            <li><a href="#s5" class="myNavLink">Contact</a></li>
-        </ul>
-     </div>
-  </nav>
-</div>
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon" />
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-<div class="sections">
-  <div class="section" id="s0">
-    Section 0
-  </div>
-  <div class="section" id="s1">
-    Section 1
-  </div>
-  <div class="section" id="s2">
-    Section 2
-  </div>
-  <div class="section" id="s3">
-    Section 3
-  </div>
-  <div class="section" id="s4">
-    Section 4
-  </div>
-  <div class="section" id="s5">
-    Section 5
-  </div>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-</div>
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
 
-<button id="back-to-top-btn" href="#s0" class="myNavLink"><i class="fas fa-chevron-up"></i></button>
-<!-- partial -->
-  <script  src="./script.js"></script>
+    <!-- Template Main CSS File -->
+    <link href="css/style.css" rel="stylesheet" />
 
-</body>
+    <!-- Font Awsome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <!-- End Font Awsome -->
+    <!-- =======================================================
+  * Template Name: Vesperr - v2.3.0
+  * Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center">
+        <div class="logo mr-auto">
+          <!-- <h1 class="text-light"><a href="index.html"></a></h1> -->
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html"
+            ><img src="img/tirupati_full.jpg" alt="" class="img-fluid"
+          /></a>
+        </div>
+
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About-us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <!-- <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#pricing">Pricing</a></li>           -->
+            <li><a href="contact.html">Contact</a></li>
+            <!-- <li class="get-started"><a href="#about">Get Started</a></li> -->
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center"
+          >
+            <h1 data-aos="fade-up">We're <span>Creative</span> Producer</h1>
+            <h5 class="head_h5" data-aos="fade-up" data-aos-delay="400">
+              An ambitious Company with a Wealth of Experience, Driven by a Desire and Enthusiasm to deliver Flexible and Responsible solution for Plastic Packaging.
+            </h5>
+            <div data-aos="fade-up" data-aos-delay="800">
+              <a href="about-us.html" class="btn-get-started scrollto">Get Started</a>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2 hero-img"
+            data-aos="fade-left"
+            data-aos-delay="200"
+          >
+            <img src="img/cstl.jpg" class="img-fluid animated" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>About Us</h2>
+            <img src="img/agri_underline2.png" alt="" />
+          </div>
+
+          <div class="row content">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+              <div
+                class="image col-xl-10 d-flex align-items-stretch justify-content-center justify-content-xl-start"
+                data-aos="fade-right"
+                data-aos-delay="150"
+              >
+                <img src="img/water & beverages.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+
+            <div
+              class="col-lg-6 pt-4 pt-lg-0"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <p>
+                Tirupati Polyplast is renowned for high-quality rigid plastic packaging. As a reliable partner with Wealth of industry experience, we offer clients innovative products of the highest quality. Our packaging solutions set themselves apart with their functionality, safety, and design.
+              </p>
+              <p>
+                We provide solutions for diverse sectors, all of which share a common link: their high quality, durable, thoughtfully designed and user friendly packaging.
+              </p>
+
+              <ul>
+                <li>
+                  <i class="icofont-tick-boxed"></i>We are driven by innovation
+                </li>
+                <li>
+                  <i class="icofont-tick-boxed"></i>We are buit to deliver
+                </li>
+                <li>
+                  <i class="icofont-tick-boxed"></i>We are buit to deliver
+                </li>
+                <li>
+                  <i class="icofont-tick-boxed"></i>Our innovative ethos set us apart.
+                </li>
+              </ul>
+              <a href="about-us.html" class="btn-learn-more">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Us Section -->
+
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts section-bg">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-xl-12 d-flex align-items-stretch pt-4 pt-xl-0"
+              data-aos="fade-left"
+              data-aos-delay="300"
+            >
+              <div class="content d-flex flex-column justify-content-center">
+                <div class="row">
+                  <div class="col-md-3 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <div id="counter-left">
+                        <img src="https://img.icons8.com/ios/100/000000/bottle-of-water.png"/>
+                      </div>
+                      <div id="counter-right">
+                        <span data-toggle="counter-up">180</span>
+                        <p><strong>Product Design</strong></p>
+                        <p>
+                          There are many variations of passages of available but
+                          the reset to majority
+                        </p>
+                      </div>
+                      
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      
+                      <div id="counter-left">
+                        <img src="https://img.icons8.com/ios/100/000000/design--v1.png"/>
+                      </div>
+                      <div id="counter-right">
+                        <span data-toggle="counter-up">80</span>
+                        <p><strong>Mold Design</strong></p>
+                        <p>
+                          There are many variations of passages of available but
+                          the reset to majority
+                        </p>
+                      </div>
+                      
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <div id="counter-left">
+                        <img src="https://img.icons8.com/wired/100/000000/robot.png"/>
+                      </div>
+                      <div id="counter-right">
+                        <span data-toggle="counter-up">8</span>
+                        <p><strong>Production Line</strong></p>
+                        <p>
+                          There are many variations of passages of available but
+                          the reset to majority
+                        </p>
+                      </div>
+                      
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <div id="counter-left">
+                        <img src="https://img.icons8.com/ios/100/000000/lol--v1.png"/>
+                      </div>
+                      <div id="counter-right">
+                        <span data-toggle="counter-up">50</span>
+                        <p><strong>Happy Clients</strong></p>
+                        <p>
+                          There are many variations of passages of available but
+                          the reset to majority
+                        </p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End .content-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Counts Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <section id="more-services" class="more-services">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div
+                  class="card"
+                  style="
+                    background-image: url('img/agriculture.png');
+                    background-size: contain;
+                  "
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <div class="card-body">
+                    <h3 class="card-title"><a href="">HDPE</a></h3>
+                    <div class="read-more">
+                      <a href="hdpe.html" class="btn-learn-more">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                <div
+                  class="card"
+                  style="
+                    background-image: url('img/chemicals.png');
+                    background-size: contain;
+                  "
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <div class="card-body">
+                    <h3 class="card-title"><a href="">PET</a></h3>
+                    <div class="read-more">
+                      <a href="pet.html" class="btn-learn-more">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch mt-4">
+                <div
+                  class="card"
+                  style="
+                    background-image: url('img/cosmetics.png');
+                    background-size: contain;
+                  "
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <div class="card-body">
+                    <h3 class="card-title"><a href="">BULK</a></h3>
+                    <div class="read-more">
+                      <a href="bulk.html" class="btn-learn-more">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch mt-4">
+                <div
+                  class="card"
+                  style="
+                    background-image: url('img/water\ &\ beverages.png');
+                    background-size: contain;
+                  "
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <div class="card-body">
+                    <h3 class="card-title"><a href="">CAPS & CLOSURES</a></h3>
+                    <div class="read-more">
+                      <a href="c&c.html" class="btn-learn-more">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- End Services Section -->
+      <!-- =============== Contact Section ========== -->
+      <div class="site-section bg-image overlay" style="background-image: url('img/bottles_img.jpg')">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 text-center" id="overlay-btn">
+              <h2 class="font-weight-bold text-black"> Looking for packaging solution?</h2>
+              <p class="font-weight-bold text-black">
+               
+                Let’s get in touch with us, We are ready to provide a range of packaging solution which makes your brand unique.</p>                
+              <p class="mb-0"><a href="contact.html" class="btn-learn-more">Get in touch</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ===========End Contact Section =========== -->
+<!-- ======= Footer Section ======= -->
+    <footer class="footer">
+      <div class="container bottom_border">
+        <div class="row">
+          <div class="col-sm-4 col-md col-sm-4 col-12 col">
+            <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+            <!--headin5_amrc-->
+            <p class="mb10">
+              <i class="fa fa-location-arrow"></i>
+              &nbsp; Plot No. 109, Near Anand Steel, Kuvadava G.I.D.C.,
+              Ahemdabad - Rajkot Highway, Kuvadava Rajkot, Gujarat 360023 India
+            </p>
+            <p><i class="fa fa-phone"></i> +91 98984 09741</p>
+            <p><i class="fa fa fa-envelope"></i> info@tirupatipolyplast.com</p>
+          </div>
+          <div class="col-sm-4 col-md col-6 col">
+            <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+            <!--headin5_amrc-->
+            <ul class="footer_ul_amrc">
+              <li><a href="http://webenlance.com">HOME</a></li>
+              <li><a href="http://webenlance.com">ABOUT US</a></li>
+              <li><a href="http://webenlance.com">PRODUCTS</a></li>
+              <li><a href="http://webenlance.com">CONTACT US</a></li>
+            </ul>
+            <!--footer_ul_amrc ends here-->
+          </div>
+
+          <div class="col-sm-4 col-md col-6 col">
+            <h5 class="headin5_amrc col_white_amrc pt2">Products</h5>
+            <!--headin5_amrc-->
+            <ul class="footer_ul_amrc">
+              <li><a href="http://webenlance.com">HDPE</a></li>
+              <li><a href="http://webenlance.com">PET</a></li>
+              <li><a href="http://webenlance.com">BULK</a></li>
+              <li><a href="http://webenlance.com">CAPS & CLOSURES</a></li>
+            </ul>
+            <!--footer_ul_amrc ends here-->
+          </div>
+
+          <div class="col-sm-4 col-md col-12 col">
+            <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+            <!--headin5_amrc ends here-->
+
+            <ul class="social_footer_ul footer_ul2_amrc">
+              <li>
+                <a href="http://webenlance.com"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="http://webenlance.com"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="http://webenlance.com"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="http://webenlance.com"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+            <!--footer_ul2_amrc ends here-->
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <!--foote_bottom_ul_amrc ends here-->
+        <p class="text-center">
+          © 2018 - 2021 Tirupati Polyplast - All Rights Reserved
+        </p>
+        <!--social_footer_ul ends here-->
+      </div>
+    </footer>
+  </main>
+  <!-- End #main -->
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
