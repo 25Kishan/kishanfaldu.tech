@@ -745,7 +745,7 @@ body {
     color: #6f6f6f;
   }
   #counter-right{
-    width: 60%;
+    width: 51%;
     float: right;
   }
   #counter-left{
@@ -879,7 +879,8 @@ body {
     transition: 0.3s;
     transition: ease-in-out 0.4s;
     border-radius: 0px;
-    border:10px solid #f9eee9;
+    border:4px solid #6c757d;
+    box-shadow: 1px 9px 5px 0px #999;
   }
   
   .more-services .card-title {
@@ -902,18 +903,6 @@ body {
     font-weight: 600;
     font-size: 12px;
     transition: 0.4s;
-  }
-  
-  .more-services .read-more a:hover {
-    text-decoration: underline;
-  }
-  
-  .more-services .card:hover .card-body {
-    background: red;
-  }
-  
-  .more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
-    color: #fff;
   }
   
   /*--------------------------------------------------------------
@@ -1817,7 +1806,7 @@ body {
   --------------------------------------------------------------*/
  /*footer*/
 .col_white_amrc { color:#FFF;}
-footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ;}
+footer { width:100%; background-color:#202224; min-height:250px; padding:10px 0px 25px 0px ;}
 .pt2 { padding-top:40px ; margin-bottom:20px ;}
 footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .mb10 { padding-bottom:15px ;}

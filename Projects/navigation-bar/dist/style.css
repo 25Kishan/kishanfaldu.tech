@@ -57,8 +57,7 @@ body {
     cursor: pointer;
     z-index: 9999;
     border-radius: 50%;
-  }
-@media screen and (max-width: 864px) {
+  }%64px) {
   #mobileNav nav {
     display: block;
   }
