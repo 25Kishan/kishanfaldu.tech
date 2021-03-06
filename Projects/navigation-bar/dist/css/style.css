@@ -367,7 +367,7 @@ body {
     margin-top: 6%;
   }
   #a_content{
-    color:#fff;
+    color:#000;
     letter-spacing: 2px;
     line-height: 2.2;
   }
@@ -381,13 +381,36 @@ body {
     transform: translate(-50%, -50%);
     font-size: 40px;
     color: #fff;
-  }
+    text-transform: uppercase;
+    width: 100%; 
+    overflow: hidden;
+    text-align: center;
+}
+.centered:before,
+.centered:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 2.5px;
+    position: relative;
+    vertical-align: middle;
+    width: 10%;
+}
+.centered:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.centered:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
   .centered span{
-    font-size: 50px;
+    background:#fff; 
+    padding:0 10px; 
   }
   #texture-img img{
     width: 100%;
-    height: 300px;
+    height: 230px;
    }
    #industry_we{
     color:#0000;
@@ -396,18 +419,26 @@ body {
    .a_about{
     margin-top: 22%;
    }
-   #a_content{
-    color:#fff;
-  }
   #industry_we{
     color:#fff;
+  }
+  #product-card{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #product-card-child{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20.5rem; 
+    margin-top: -5%;
+    border:none;
   }
    #texture-img img{
     width: 100%;
     height: 125px;
    }
    .centered{
-    font-size: 14px;
+    font-size: 25px;
    }
   }
   /* End About-us page section */
@@ -463,6 +494,9 @@ body {
   #hero .animated {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
   }
+  #tp-about .animated{
+    animation: left-right 2s ease-in-out infinite alternate-reverse both;
+  }
   
   @media (min-width: 1024px) {
     #hero {
@@ -475,6 +509,10 @@ body {
       height: 100vh;
     }
     #hero .animated {
+      -webkit-animation: none;
+      animation: none;
+    }
+    #tp-about .animated {
       -webkit-animation: none;
       animation: none;
     }
@@ -527,12 +565,30 @@ body {
       transform: translateY(-10px);
     }
   }
+
+  @-webkit-keyframes left-right {
+    0% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(-10px);
+    }
+  }
+  
+  @keyframes left-right {
+    0% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(-10px);
+    }
+  }
   
   /*--------------------------------------------------------------
   # Sections General
   --------------------------------------------------------------*/
   section {
-    padding: 20px 0;
+    padding: 10px 0;
     overflow: hidden;
   }
   
@@ -654,7 +710,7 @@ body {
     margin-bottom: 0;
   }
   
-  .about .content .btn-learn-more , #overlay-btn .btn-learn-more,.read-more .btn-learn-more{
+  .about .content .btn-learn-more , #overlay-btn .btn-learn-more,.read-more .btn-learn-more,.social_footer_ul li a {
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -672,7 +728,7 @@ body {
     border: 2px solid red;
   }
   
-  .about .content .btn-learn-more:hover,#overlay-btn .btn-learn-more:hover,.read-more .btn-learn-more:hover {
+  .about .content .btn-learn-more:hover,#overlay-btn .btn-learn-more:hover,.read-more .btn-learn-more:hover,.social_footer_ul li a:hover {
     background: red;
     color: #fff;
     text-decoration: none;
@@ -1761,7 +1817,14 @@ body {
     width: 90%;
     margin-left: 5%;
   }
-  
+  #product-card{
+    width: 17rem;
+  }
+  #product-card-child{
+    width: 16.9rem;
+     margin-top: -5%;
+     border:none;
+  }
   .o-btn--primary {
     background-color: #039ea5;
     text-transform: uppercase;
@@ -1798,9 +1861,21 @@ body {
     border: none !important;
     background-color: #4B4B4D;
     color: #fff;
+    padding-bottom: 0px !important;
+}
+#data-name{
+  display: inline-block;
+  width: 70px;
+}
+#data-dash{
+  display: inline-block;
+  width: 30px;
 }
   /* End table */
   /* END Products - HDPE Inside */
+  /* Products page table content */
+  
+  /* End Products page table content */
   /*--------------------------------------------------------------
   # Footer
   --------------------------------------------------------------*/
@@ -1837,5 +1912,5 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 
 .social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
 .social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
-.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li a{font-size: 12px;}
 .social_footer_ul li i {  width:20px; height:20px; text-align:center;}
