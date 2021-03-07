@@ -104,45 +104,45 @@
                   width="100%" height="540" frameborder="0" style="border:0" allowfullscreen data-aos="fade-right" data-aos-duration="2000"></iframe>
               </div>
               <div class="col-md-7">
-                <form>
+                <form method="post" action="mail.php">
                     <div class="form-group">
-                      <label for="inputCity">Name :</label>
-                      <input type="text" class="form-control" id="inputCity" />
+                      <label for="name">Name :</label>
+                      <input type="text" class="form-control" id="name"name="name" />
                     </div>
                     <div class="form-row">
                     <div class="form-group col-md-6">
-                      <label for="inputState">Organization:</label>
-                      <input type="text" class="form-control" id="inputCity" />
+                      <label for="organization">Organization:</label>
+                      <input type="text" class="form-control" id="organization" name="organization" />
                     </div>
                     <div class="form-group col-md-6">
-                      <label for="inputCity">Contact Number:</label>
-                      <input type="text" class="form-control" id="inputCity" />
+                      <label for="contact">Contact Number:</label>
+                      <input type="text" class="form-control" id="contact" name="contact-number"/>
                     </div>
                   </div>
                     <div class="form-row">
                     <div class="form-group col-md-6">
-                      <label for="inputState">Email:</label>
-                      <input type="text" class="form-control" id="inputCity" />
+                      <label for="email">Email:</label>
+                      <input type="text" class="form-control" id="email" name="email"/>
                     </div>
                     <div class="form-group col-md-6">
-                      <label for="inputState">Website</label>
-                      <input type="text" class="form-control" id="inputCity" />
+                      <label for="Website">Website</label>
+                      <input type="text" class="form-control" id="website" name="website" />
                     </div>
                   </div>
                     <div class="form-row">
                     <div class="form-group col-md-6">
-                      <label for="inputState">Select Type Of Products</label>
-                      <select id="inputState" class="form-control">
+                      <label for="products" >Select Type Of Products</label>
+                      <select id="products" name="products" class="form-control">
                         <option value="">Select Type</option>
                         <option value="Pet">Pet</option>
                         <option value="Hdpe">Hdpe</option>
-                        <option>Bulk Packages</option>
+                        <option value="Bulk Packages">Bulk Packages</option>
                         <option>Cape & Closur</option>
                       </select>
                     </div>
                     <div class="form-group col-md-6">
-                      <label for="inputState">Select Industry</label>
-                      <select id="inputState" class="form-control">
+                      <label for="industry" >Select Industry</label>
+                      <select id="industry" name="industry" class="form-control">
                         <option value="">Select Industry</option>
                         <option value="Pet">Lubricants</option>
                         <option value="Hdpe">Water</option>
@@ -151,16 +151,16 @@
                   </div>
                   <div class="form-row">
                     <div class="form-group col-md-6">
-                      <label for="inputState">Select Product</label>
-                      <select id="inputState" class="form-control">
+                      <label for="specific-product" >Select Product</label>
+                      <select id="specific-product" name="specific-product" class="form-control">
                         <option value="">Select Product</option>
                         <option value="Pet">Lubricants</option>
                         <option value="Hdpe">Water</option>
                       </select>
                     </div>
                     <div class="form-group col-md-6">
-                      <label for="inputState">Select Products Capacity</label>
-                      <select id="inputState" class="form-control">
+                      <label for="capacity" >Select Products Capacity</label>
+                      <select id="capacity" name="capacity" class="form-control">
                         <option value="">Select Capacity</option>
                         <option value="Pet">1</option>
                         <option value="Hdpe">2</option>
@@ -174,10 +174,10 @@
                     <textarea
                       class="form-control"
                       id="exampleFormControlTextarea1"
-                      rows="2"
+                      rows="2"name="message"
                     ></textarea>
                   </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn-learn-more btn">Submit</button>
                 </form>
               </div>
             </div>
