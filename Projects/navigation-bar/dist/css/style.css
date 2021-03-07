@@ -271,6 +271,7 @@ body {
     visibility: hidden;
     border-radius: 10px;
     padding: 10px 0;
+    height: 260px;
   }
   
   .mobile-nav * {
@@ -374,7 +375,7 @@ body {
   #text-container-1{
     position:relative;
   }
-  .centered {
+  .centered,.centered-contact-us {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -396,9 +397,26 @@ body {
     vertical-align: middle;
     width: 10%;
 }
+.centered-contact-us::before,
+.centered-contact-us::after{
+  content: "";
+    display: inline-block;
+    height: 2.5px;
+    position: relative;
+    vertical-align: middle;
+    width: 10%;
+}
 .centered:before {
     right: 0.5em;
     margin-left: -50%;
+}
+.centered-contact-us::before{
+  right: 0.5em;
+  margin-left: -54%;
+}
+.centered-contact-us:after {
+  left: 0.5em;
+  margin-right: -50%;
 }
 .centered:after {
     left: 0.5em;
@@ -1870,6 +1888,9 @@ body {
 #data-dash{
   display: inline-block;
   width: 30px;
+}
+.card-header{
+  background-color: #727376;color:#FEFEFE;font-weight: bolder;font-size: 1.5rem;
 }
   /* End table */
   /* END Products - HDPE Inside */
